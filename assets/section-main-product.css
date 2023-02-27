@@ -1244,3 +1244,6 @@ a.product__text {
   margin-left: 1.2rem;
   flex-shrink: 0;
 }
+.product-form__input input[type=radio]:checked+label{
+  background-color:#70CDCD;
+}
