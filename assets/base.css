@@ -1062,7 +1062,9 @@ summary::-webkit-details-marker {
 }
 
 .grid--1-col .grid__item {
-  max-width: 100%;
+  max-width: 730px;
+  margin-right:auto;
+  margin-left:auto;
   width: 100%;
 }
 
@@ -2986,4 +2988,10 @@ details-disclosure > details {
 
 .product__title > h1{
   font-size:26px !important;
+}
+
+@media screen and (max-width: 749px) {
+.banner__box{
+  padding:2rem 3.5rem 2rem 3.5rem !important;
+}
 }
